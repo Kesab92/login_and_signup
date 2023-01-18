@@ -80,9 +80,17 @@ input::placeholder {
 .login {
   background-color: #f96b69;
 }
+.login > form {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
 .login > form > label {
   color: white;
   font-size: 10px;
+}
+.login > form > i {
+  color: white;
 }
 .login > form > input {
   background-color: transparent;
@@ -112,4 +120,15 @@ input::placeholder {
   text-align: center;
   font-size: 10px;
   font-weight: bold;
+}
+.remember {
+  display: flex;
+  justify-content: space-between;
+}
+.remember > .child1 > label {
+  color: white;
+}
+.remember > a {
+  color: white;
+  font-size: 10px;
 }
