@@ -50,7 +50,7 @@ label {
 }
 input {
   border: none;
-  border-bottom: 2px solid #eee;
+  border-bottom: 1px solid #eee;
 }
 input:focus {
   outline: none;
@@ -71,6 +71,9 @@ input::placeholder {
   text-align: center;
   font-size: small;
 }
+.signin > a {
+  color: black;
+}
 
 /* Login Page CSS*/
 
@@ -81,7 +84,13 @@ input::placeholder {
   color: white;
   font-size: 10px;
 }
-.login > form > label > .submit {
+.login > form > input {
+  background-color: transparent;
+}
+.login > form > input::placeholder {
+  color: white;
+}
+.login > form > .submit {
   background-color: white;
   color: #f96b69;
   border: none;
@@ -89,4 +98,18 @@ input::placeholder {
   font-size: 14px;
   font-weight: bold;
   border-radius: 2px;
+}
+.signup {
+  text-align: center;
+  font-size: small;
+  color: white;
+}
+.signup > a {
+  color: white;
+}
+.logo {
+  color: white;
+  text-align: center;
+  font-size: 10px;
+  font-weight: bold;
 }
